@@ -1,0 +1,10 @@
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\bin\Debug\CinemaVBApp.exe.config
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\bin\Debug\CinemaVBApp.exe
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\bin\Debug\CinemaVBApp.pdb
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\bin\Debug\CinemaVBApp.xml
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.Form.resources
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.Resources.resources
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.csproj.GenerateResource.cache
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.csproj.CoreCompileInputs.cache
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.exe
+C:\Users\callu\source\repos\SDV502_app_testing\CinemaVBApp\CinemaVBApp\CinemaVBApp\obj\Debug\CinemaVBApp.pdb
