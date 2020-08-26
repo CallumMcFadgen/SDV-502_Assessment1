@@ -79,99 +79,243 @@ namespace CinemaApp.Tests
             Assert.AreEqual(expectedResult, actualResult);
         }
 
-        //[Test]
-        //public void Adult_Before_5_Test4()
-        //{
-        //    var sut = new Form();
-        //    decimal adult_before_5 = sut.Adult_Before_5(0, "adult", "monday", 4);
-        //    Assert.AreEqual(14.5, adult_before_5);
-        //}
+        [Test]
+        public void Adult_Before_5_Test5()
+        {
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "tuesday";
+            decimal time = 4M;
+            decimal expectedResult = 0M;
 
-        //[Test]
-        //public void Adult_Before_5_Test5()
-        //{
-        //    var sut = new Form();
-        //    decimal adult_before_5 = sut.Adult_Before_5(1, "adult", "tuesday", 4);
-        //    Assert.AreEqual(14.5, adult_before_5);
-        //}
+            // Act
+            decimal actualResult = sut.Adult_Before_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [Test]
+        public void Adult_Before_5_Test6()
+        {
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "monday";
+            decimal time = 6M;
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_Before_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
         #endregion
 
         #region Adult_After_5
         [Test]
         public void Adult_After_5_Test1()
         {
-            var sut = new Form();
-            decimal adult_after_5 = sut.Adult_After_5(1, "adult", "monday", 6);
-            Assert.AreEqual(17.5, adult_after_5);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "monday";
+            decimal time = 6M;
+            decimal expectedResult = 17.50M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_After_5_Test2()
         {
-            var sut = new Form();
-            decimal adult_after_5 = sut.Adult_After_5(1, "adult", "monday", 4);
-            Assert.AreEqual(17.5, adult_after_5);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 2;
+            string person = "adult";
+            string day = "monday";
+            decimal time = 6M;
+            decimal expectedResult = 35.00M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_After_5_Test3()
         {
-            var sut = new Form();
-            decimal adult_after_5 = sut.Adult_After_5(1, "student", "monday", 6);
-            Assert.AreEqual(17.5, adult_after_5);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 0;
+            string person = "adult";
+            string day = "monday";
+            decimal time = 6M;
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_After_5_Test4()
         {
-            var sut = new Form();
-            decimal adult_after_5 = sut.Adult_After_5(0, "adult", "monday", 6);
-            Assert.AreEqual(17.5, adult_after_5);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "student";
+            string day = "monday";
+            decimal time = 6M;
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_After_5_Test5()
         {
-            var sut = new Form();
-            decimal adult_after_5 = sut.Adult_After_5(1, "adult", "tuesday", 4);
-            Assert.AreEqual(17.5, adult_after_5);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "tuesday";
+            decimal time = 6M;
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [Test]
+        public void Adult_After_5_Test6()
+        {
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "monday";
+            decimal time = 4M;
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_After_5(quantity, person, day, time);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
         #endregion
 
         #region Adult_Tuesday
-        /*
         [Test]
         public void Adult_Tuesday1()
         {
-            var sut = new Form();
-            decimal adult_tuesday = sut.Adult_Tuesday(1, "adult", "tuesday");
-            Assert.AreEqual(13.00, adult_tuesday);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 1;
+            string person = "adult";
+            string day = "tuesday";
+            decimal expectedResult = 13.00M;
+
+            // Act
+            decimal actualResult = sut.Adult_Tuesday(quantity, person, day);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_Tuesday2()
         {
-            var sut = new Form();
-            decimal adult_tuesday = sut.Adult_Tuesday(1, "adult", "monday");
-            Assert.AreEqual(13.00, adult_tuesday);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 2;
+            string person = "adult";
+            string day = "tuesday";
+            decimal expectedResult = 26.00M;
+
+            // Act
+            decimal actualResult = sut.Adult_Tuesday(quantity, person, day);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_Tuesday3()
         {
-            var sut = new Form();
-            decimal adult_tuesday = sut.Adult_Tuesday(1, "student", "tuesday");
-            Assert.AreEqual(13.00, adult_tuesday);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 0;
+            string person = "adult";
+            string day = "tuesday";
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_Tuesday(quantity, person, day);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [Test]
         public void Adult_Tuesday4()
         {
-            var sut = new Form();
-            decimal adult_tuesday = sut.Adult_Tuesday(0, "adult", "tuesday");
-            Assert.AreEqual(13.00, adult_tuesday);
+            // Arrange
+            Form sut = new Form();
+            int quantity = 0;
+            string person = "student";
+            string day = "tuesday";
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_Tuesday(quantity, person, day);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
         }
-        */ 
+
+        [Test]
+        public void Adult_Tuesday5()
+        {
+            // Arrange
+            Form sut = new Form();
+            int quantity = 0;
+            string person = "adult";
+            string day = "monday";
+            decimal expectedResult = 0M;
+
+            // Act
+            decimal actualResult = sut.Adult_Tuesday(quantity, person, day);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
         #endregion
+
+
+
+
+
     }
 }

@@ -16,15 +16,7 @@ namespace CinemaApp
 
             if (pr_person.ToLower() == "adult")
             {
-                if (pr_day.ToLower() == "tuesday")
-                {
-                    return result;
-                }
-                else if (pr_quantity < 1)
-                {
-                    return result;
-                }
-                else if (pr_time >= 5)
+                if (pr_day.ToLower() == "tuesday" || pr_quantity < 1 || pr_time >= 5)
                 {
                     return result;
                 }
@@ -40,22 +32,14 @@ namespace CinemaApp
             }
         }
 
-        public decimal Adult_After_5(int pr_quantity, string pr_person, string pr_day, int pr_time)
+        public decimal Adult_After_5(int pr_quantity, string pr_person, string pr_day, decimal pr_time)
         {
-            decimal ticket_price = 14.50M;
+            decimal ticket_price = 17.50M;
             decimal result = 0.00M;
 
             if (pr_person.ToLower() == "adult")
             {
-                if (pr_day.ToLower() == "tuesday")
-                {
-                    return result;
-                }
-                else if (pr_quantity < 1)
-                {
-                    return result;
-                }
-                else if (pr_time <= 5)
+                if (pr_day.ToLower() == "tuesday" || pr_quantity < 1 || pr_time <= 5)
                 {
                     return result;
                 }
@@ -70,6 +54,30 @@ namespace CinemaApp
                 return result;
             }
         }
+
+        public decimal Adult_Tuesday(int pr_quantity, string pr_person, string pr_day)
+        {
+            decimal ticket_price = 13.00M;
+            decimal result = 0.00M;
+
+            if (pr_person.ToLower() == "adult" && pr_day.ToLower() == "tuesday")
+            {
+                if  (pr_quantity < 1)
+                {
+                    return result;
+                }
+                else
+                {
+                    result = (ticket_price * pr_quantity);
+                    return result;
+                }
+            }
+            else
+            {
+                return result;
+            }
+        }
+
 
         private void Cinemas_Load(object sender, EventArgs e)
         {
