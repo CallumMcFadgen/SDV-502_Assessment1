@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaVBApp", "CinemaVBApp\CinemaVBApp.csproj", "{ADBABAD5-2CC4-0523-1BBA-3679032F1E6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp", "CinemaVBApp\CinemaApp.csproj", "{ADBABAD5-2CC4-0523-1BBA-3679032F1E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaVBApp.Tests", "CinemaVBApp.Tests\CinemaVBApp.Tests.csproj", "{D05F8EEA-A312-421C-81D7-7FAA8DCDFF99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.Tests", "CinemaVBApp.Tests\CinemaApp.Tests.csproj", "{D05F8EEA-A312-421C-81D7-7FAA8DCDFF99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

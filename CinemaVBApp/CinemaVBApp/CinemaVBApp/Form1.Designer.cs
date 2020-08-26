@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CinemaVBApp
+namespace CinemaApp
 {
     [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
     public partial class Form : System.Windows.Forms.Form

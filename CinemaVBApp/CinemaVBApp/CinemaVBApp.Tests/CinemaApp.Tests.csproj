@@ -61,9 +61,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CinemaVBApp\CinemaVBApp.csproj">
+    <ProjectReference Include="..\CinemaVBApp\CinemaApp.csproj">
       <Project>{adbabad5-2cc4-0523-1bba-3679032f1e6a}</Project>
-      <Name>CinemaVBApp</Name>
+      <Name>CinemaApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
