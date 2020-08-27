@@ -1,0 +1,6 @@
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\bin\Debug\CinemaApp.dll
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\bin\Debug\CinemaApp.pdb
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\obj\Debug\CinemaApp.csprojAssemblyReference.cache
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\obj\Debug\CinemaApp.csproj.CoreCompileInputs.cache
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\obj\Debug\CinemaApp.dll
+C:\Users\callu\source\repos\CinemaApp\CinemaApp\obj\Debug\CinemaApp.pdb
