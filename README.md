@@ -19,7 +19,6 @@ The first project is named CinemaApp and contains a single class named TicketPri
   <li>Chick_Flick_Thursday()</li>
   <li>Kids_Carers()</li>
   </ul>
- <br>
  The second project is named CinemaApp.Tests and contains a single class named TicketPriceControllerTests, this class references TicketPriceController and contains 48 functions designed to test the input conditions and returns from all 9 functions within TestPriceController.
  <br><br>
  Please do not hesitate to get in contact with me if there are any issues with cloning or running the solution
