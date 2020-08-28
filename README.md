@@ -6,7 +6,7 @@ All code was written and tested using Visual Studio 2019 and the code is organis
 <br><br>
 The 2 projects are both .Net Framework class libraries
 <br><br>
-The first project is named CinemaApp and contains a single class named TicktPriceController, this class contains 9 functions as defined in the assessment resources
+The first project is named CinemaApp and contains a single class named TicketPriceController, this class contains 9 functions as defined in the assessment resources
 <br>
 <ul>
   <li>Adult_Before_5()</li>
@@ -20,7 +20,7 @@ The first project is named CinemaApp and contains a single class named TicktPric
   <li>Kids_Carers()</li>
   </ul>
  <br>
- The second project is named CinemaApp.Tests and contains a single class named TicktPriceControllerTests, this class contains references TicktPriceController and contains 48 functions designed to test the conditions and returns from the 9 functions in TestPriceController.
+ The second project is named CinemaApp.Tests and contains a single class named TicketPriceControllerTests, this class contains references TicketPriceController and contains 48 functions designed to test the input conditions and returns from the 9 functions within TestPriceController.
  <br><br>
  Please do not hesitate to get in contact with me if there are any issues with cloning or running the solution
 
